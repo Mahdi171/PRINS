@@ -5,7 +5,7 @@ pragma solidity 0.8.7;
 SPDX-License-Identifier: UNLICENSED
 */
 /**
-* @title ArbiterContract
+* @title AuthorityContract
 * @dev Accept customer deposits and allow merchant withdrawals. As an example, a customer is allowed to deposit 1 ether per collateral.
 */
 contract AuthorityContract {
