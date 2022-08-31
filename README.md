@@ -16,18 +16,18 @@ The structure of this repository is as follows:
 * `communication_python`: Python code to emulate our payment system in a distributed environment. 
 
 	- BLS.py: Python code to emulate BLS signatures
-	- Customer_preprocessed.py: Python code to emulate a customer in our payment system.
-	- Merchant_witness_distributed.py: Python code to emulate a merchant with distributed witnesses. 
-	- Authorities.py: Python code to emulate authorities.
+	- Customer_preprocessed.py: Python code to emulate a customer in our payment system
+	- Merchant_witness_distributed.py: Python code to emulate a merchant with distributed witnesses
+	- Authorities.py: Python code to emulate authorities
 	- TSPS.py: Python code to emulate our proposed TSPS scheme
-	- Witness.py: Python code to emulate a witness located at a separate locations.
+	- Witness.py: Python code to emulate a witness located at a separate locations
 	- secretshare.py: Python code for Shamir secret sharing
-    - simulate.py: Please execute `python3 simulate.py` to simultae our payment system.
-    - config.ini: The configuration for setting hostnames and ports for the simulation, see the file for documentation.
+    - simulate.py: Please execute `python3 simulate.py` to simulate our payment system
+    - config.ini: The configuration for setting hostnames and ports for the simulation, see the file for documentation
 
 * `contracts`: The smart contract for our payment system
     
-	- NirvanaSecretPaymentChannel: A smart contract for accepting customer deposits and remunerating victim merchants
+	- AuthorityContract: A smart contract for accepting customer deposits, payments and remunerating victim merchants
 
 
 ## Install
@@ -60,7 +60,7 @@ Make sure to set the extra `LDFLAGS` so that charm-crypto finds pbc as shown abo
 ## Simulation
 
 It is possible to simulate our payment network on multiple machines, this is tested on AWS.
-- Copy the source code to all the machine and configure `nirvana.ini` appropriately.
+- Copy the source code to all the machine and configure `config.ini` appropriately.
 - Setting `all_local=1` will everything to run locally,
 if a distributed execution is needed, make sure `all_local=0`.
 - Make sure all machines can run `python3 simulate.py` locally, which may involve installing dependencies.
