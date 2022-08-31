@@ -42,9 +42,9 @@ Do not use pip to install `requirements.txt` since charm-crypto needs to install
 
 If you want charm-crypto to be in a virtual environment,
 here's what you should do.
-- Create a virtual environment with `python3 -m venv nirvana-env`.
+- Create a virtual environment with `python3 -m venv cons-env`.
 - Install [pbc](https://crypto.stanford.edu/pbc/download.html) to the virtual-env,
-i.e., you need to set the prefix: `./configure --prefix=/home/myname/nirvana-env`
+i.e., you need to set the prefix: `./configure --prefix=/home/myname/cons-env`
 - Clone charm-crypto from https://github.com/JHUISI/charm.git.
 Do not use the releases, they do not work. Install from the repo.
 - Install charm-crypto to the virtual environment
