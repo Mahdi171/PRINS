@@ -49,7 +49,7 @@ i.e., you need to set the prefix: `./configure --prefix=/home/myname/cons-env`
 Do not use the releases, they do not work. Install from the repo.
 - Install charm-crypto to the virtual environment, e.g.,
 ```
-./configure.sh --prefix=/home/myname/tmp/cons-env  --extra-ldflags="-L/home/myname/nirvana-env/lib -L/home/myname/cons-env/lib64
+./configure.sh --prefix=/home/myname/tmp/cons-env  --extra-ldflags="-L/home/myname/cons-env/lib -L/home/myname/cons-env/lib64
 make
 make install
 ```
