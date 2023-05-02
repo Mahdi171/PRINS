@@ -1,6 +1,8 @@
+### Hi there 👋
+
 # Private Double-Spending Protection for Low Latency Payments on Blockchains
 
-Our system enables a customer to instantly transact with a merchant using a cryptocurrency of their choice.
+Our system enables a customer to instantly transact with a merchant using a cryptocurrency of their choice. [Link](https://eprint.iacr.org/2023/583) to the research paper accepted to ACISP'23.
 
 The structure of this repository is as follows:
 
